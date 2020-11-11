@@ -1,0 +1,27 @@
+{{ define "main" }}
+<main aria-role="main" class="homepage">
+    <header>
+        <h1>{{.Title}}</h1>
+        {{ with .Params.subtitle }}<span class="subtitle">{{.}}</span>{{ end }}
+    </header>
+    <div class="content">
+        {{.Content}}
+        {{ with .Site.GetPage "nos-massages" }}
+        <div class="list">
+            <h2>{{.Title}}</h2>
+            <ul>
+            {{- range .Pages }}
+                <li>
+                    <a href="{{ .Permalink }}">
+                        <img src="{{ .Params.Image }}" alt="{{ htmlEscape .Title }}">
+                        <h3>{{ .Title }}</h3>
+                        <p>{{ .Params.Subtitle }}</p>
+                    </a>
+                </li>
+            {{- end }}
+            </ul>
+        </div>
+        {{ end }}
+    </div>
+</main>
+{{ end }}

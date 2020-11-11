@@ -1,0 +1,23 @@
+---
+date: 2020-11-08T01:52:59+01:00
+title: Contact
+layout: contact
+---
+
+## Marie Gosset
+
+Practicienne en massages bien-être agréée **FFMBE**, la Fédération Française de Massage Bien-Être.
+
+Les prestations réalisées n'ont aucun but thérapeutique et en raison de leur nature, ne s'apparentent en rien, 
+ni dans le contenu, ni dans les objectifs à la pratique de la masso-kinésithérapie, ainsi qu'à toute pratique médicale.
+
+Les massages bien-être ne sont pas à caractère sexuel.  
+
+
+## Uniquement sur rendez-vous
+
+4 Impasse Lénine, 78800 Houilles, France
+
+06 15 04 73 69
+
+marie@hanabibienetre.fr

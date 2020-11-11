@@ -1,0 +1,18 @@
+<nav aria-role="nav">
+    <a href="/">{{.Site.Title}}</a>
+    <ul class="main">
+        {{ with .Site.GetPage "home" -}}
+        {{ range .Pages }}<li><a href="{{.Permalink}}">{{.Title}}</a></li>{{ end -}}
+        {{ end -}}
+        <li><a href="https://widget.treatwell.fr/salon/hanami-bien-etre/" class="rdv" target="_blank" rel="noopener">Prendre rendez-vous</a></li>
+    </ul>
+    {{if .Site.Params.Social -}}
+    <ul class="social">
+        {{- range .Site.Params.Social -}}
+        {{ $url := urls.Parse . -}}
+        {{ $ref := index (split $url.Host ".") 1 -}}
+        <li><a href="{{ $url }}" target="_blank" rel="noopener" class="{{ $ref }}">{{ $ref }}</a></li>{{ end -}}
+    </ul>
+    {{ end -}}
+</nav>
+{{ with .Site.Params.Banner }}<div class="banner">{{.}}</div>{{ end }}

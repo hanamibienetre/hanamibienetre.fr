@@ -1,0 +1,12 @@
+baseURL = "https://hanamibienetre.fr/"
+languageCode = "fr-FR"
+title = "Hanami Bien-être"
+theme = "hanamibienetre"
+
+[params]
+    banner = "Suite aux decisions gouvernementales, je suis temporairement fermée pour lutter ensemble contre le coronavirus."
+    social = [ "https://www.facebook.com/Hanamibienetre/", "https://www.instagram.com/hanami_bienetre/" ]
+
+    [home]
+    lastPostURL = "actualites"
+    listDirURL = "nos-massages"
