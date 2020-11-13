@@ -7,16 +7,6 @@ html {
   line-height: 1.4rem;
 }
 
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-div, nav {
-  box-sizing: border-box;
-}
-
 .banner {
   background-color: rgba(255,0,0,0.8);
   color: #ffffff;
@@ -36,22 +26,69 @@ div, nav {
   overflow: hidden;
 }
 
-.menu {
-  background-color: #1d3155;
+.header {
+  background: #1d3155 url("/images/logo-fond.png") no-repeat left bottom;
+  background-size: contain;
   color: #ffffff;
-  flex: 0 0 25%;
+  flex: 0 0 30%;
   height: 100vh;
   overflow: auto;
-  transition: all 0.2s ease-in-out;
+}
+
+.menu {
+  background:rgba(0, 0, 0, 0.4);
+  height: 100%;
+  padding: 60px 40px 40px 20px;
 }
 
 .menu a, .menu a:visited {
   color: #ffffff;
   text-decoration: none;
+  transition: all 0.2s ease-in-out;
 }
 
 .menu a:hover, .menu a:focus {
   color: #e3bbce;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu-main {
+  margin: 1em 0;
+}
+
+.menu-main a {
+  display: block;
+  font-weight: bold;
+  padding: 8px;
+  border-bottom: 1px dotted rgba(227, 187, 206, 0.4);
+}
+
+.menu-main li:last-of-type a {
+  border-bottom: 0;
+}
+
+.menu-social {
+  display: flex;
+  flex-direction: row;
+  margin: 0 8px;
+  gap: 12px;
+}
+
+.menu-social a {
+  display:flex;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  color: #1d3155;
+  padding: 8px;
+}
+
+.menu-social a:focus, .menu-social a:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #1d3155;
 }
 
 #content {

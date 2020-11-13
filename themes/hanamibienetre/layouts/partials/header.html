@@ -1,18 +1,27 @@
-<nav aria-role="nav" class="menu">
-    <a href="/">{{.Site.Title}}</a>
-    <ul class="menu-main">
-        {{ with .Site.GetPage "home" -}}
-        {{ range .Pages }}<li><a href="{{.Permalink}}">{{.Title}}</a></li>{{ end -}}
+<header class="header">
+    <nav aria-role="nav" class="menu">
+        <a href="/">{{.Site.Title}}</a>
+        <ul class="menu-main">
+            {{ with .Site.GetPage "home" -}}
+            {{ range .Pages }}<li><a href="{{.Permalink}}">{{.Title}}</a></li>{{ end -}}
+            {{ end -}}
+            <li><a href="https://widget.treatwell.fr/salon/hanami-bien-etre/" class="rdv" target="_blank"
+                    rel="noopener">Prendre rendez-vous</a></li>
+        </ul>
+        {{if .Site.Params.Social -}}
+        <ul class="menu-social">
+            {{- range .Site.Params.Social -}}
+            {{- $url := urls.Parse . -}}
+            {{- $ref := index (split $url.Host ".") 1 -}}
+            {{- $svgFb := resources.Get "/icons/facebook.svg" -}}
+            {{- $svgInsta := resources.Get "/icons/instagram.svg" -}}
+            <li><a href="{{ $url }}" target="_blank" rel="noopener" class="{{ $ref }}" title={{$ref}}>
+                {{- if eq $ref "facebook"}}{{ $svgFb.Content | safeHTML }}{{ end -}}
+                {{- if eq $ref "instagram"}}{{ $svgInsta.Content | safeHTML }}{{ end -}}
+            </a></li>
+            {{- end -}}
+        </ul>
         {{ end -}}
-        <li><a href="https://widget.treatwell.fr/salon/hanami-bien-etre/" class="rdv" target="_blank" rel="noopener">Prendre rendez-vous</a></li>
-    </ul>
-    {{if .Site.Params.Social -}}
-    <ul class="menu-social">
-        {{- range .Site.Params.Social -}}
-        {{ $url := urls.Parse . -}}
-        {{ $ref := index (split $url.Host ".") 1 -}}
-        <li><a href="{{ $url }}" target="_blank" rel="noopener" class="{{ $ref }}">{{ $ref }}</a></li>{{ end -}}
-    </ul>
-    {{ end -}}
-</nav>
+    </nav>
+</header>
 {{ with .Site.Params.Banner }}<div class="banner">{{ . }}</div>{{ end }}
