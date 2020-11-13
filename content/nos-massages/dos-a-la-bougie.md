@@ -3,6 +3,7 @@ title: "Dos à la bougie"
 date: 2020-11-08T00:52:59+01:00
 draft: false
 image: "/images/massages/dos-a-la-bougie.jpg"
+thumbnail: "/thumbnails/massages/dos-a-la-bougie.jpg"
 subtitle: "30 €"
 ---
 

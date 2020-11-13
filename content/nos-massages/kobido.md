@@ -3,6 +3,7 @@ title: "Kobido"
 date: 2020-11-08T00:52:59+01:00
 draft: false
 image: "/images/massages/kobido.jpg"
+thumbnail: "/thumbnails/massages/kobido.jpg"
 subtitle: "65 €"
 ---
 

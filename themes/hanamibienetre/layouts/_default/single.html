@@ -1,0 +1,17 @@
+{{ define "main" }}
+<main aria-role="main" class="not-found">
+    <article>
+        <h1>{{ .Title}}</h1>
+        {{ if and .Params.Image (not .Params.Contact)}}<img src="{{ .Params.Image }}" alt="{{ htmlEscape .Title }}">{{ end }}
+        <div class="single">{{ .Content}}</div>
+        {{ if .Params.Contact }}
+            {{ if .Params.Image }}<img src="{{ .Params.Image }}" alt="{{ htmlEscape .Title }}">{{ end }}
+            <ul>
+                {{ with .Site.Params.Address }}<li class="address">{{ . }}</li>{{ end }}
+                {{ with .Site.Params.Phone }}<li class="phone"><i>Tel: </i>{{ . }}</li>{{ end }}
+                {{ with .Site.Params.Email }}<li class="email"><i>Email: </i>{{ . }}</li>{{ end }}
+            </ul>
+        {{ end}}
+    </article>
+</main>
+{{  end }}

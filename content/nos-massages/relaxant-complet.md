@@ -3,6 +3,7 @@ title: "Relaxant complet"
 date: 2020-11-08T00:52:59+01:00
 draft: false
 image: "/images/massages/relaxant-complet.jpg"
+thumbnail: "/thumbnails/massages/relaxant-complet.jpg"
 subtitle: "60 €"
 ---
 

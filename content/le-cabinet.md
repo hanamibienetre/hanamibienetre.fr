@@ -2,7 +2,6 @@
 title: "Le cabinet"
 date: 2020-11-08T01:52:59+01:00
 draft: false
-layout: page
 ---
 
 ## Qui se cache derrière ces mains qui massent ?

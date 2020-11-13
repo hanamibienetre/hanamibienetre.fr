@@ -3,6 +3,7 @@ title: "Tuina corps"
 date: 2020-11-08T00:52:59+01:00
 draft: false
 image: "/images/massages/tuina-corps.jpg"
+thumbnail: "/thumbnails/massages/tuina-corps.jpg"
 subtitle: "A partir de 60 €"
 ---
 

@@ -2,8 +2,13 @@ baseURL = "https://hanamibienetre.fr/"
 languageCode = "fr-FR"
 title = "Hanami Bien-être"
 theme = "hanamibienetre"
+paginate = 15
 
 [params]
+    author = "Marie Gosset"
+    address = "4 Impasse Lénine, 78800 Houilles, France"
+    phone = "06 15 04 73 69"
+    email = "marie@hanabibienetre.fr"
     banner = "Suite aux decisions gouvernementales, je suis temporairement fermée pour lutter ensemble contre le coronavirus."
     social = [ "https://www.facebook.com/Hanamibienetre/", "https://www.instagram.com/hanami_bienetre/" ]
 

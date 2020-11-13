@@ -2,7 +2,6 @@
 title: "Bon cadeau"
 date: 2020-11-010T01:52:59+01:00
 draft: false
-layout: page
 ---
 
 ## Vous recherchez un cadeau original ?

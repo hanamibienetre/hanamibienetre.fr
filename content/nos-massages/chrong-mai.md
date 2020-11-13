@@ -3,6 +3,7 @@ title: "Énergétique chinois : Chrong Mai"
 date: 2020-11-08T00:52:59+01:00
 draft: false
 image: "/images/massages/chrong-mai.jpg"
+thumbnail: "/thumbnails/massages/chrong-mai.jpg"
 subtitle: "A partir de 60 €"
 ---
 

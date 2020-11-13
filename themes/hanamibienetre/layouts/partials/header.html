@@ -15,4 +15,4 @@
     </ul>
     {{ end -}}
 </nav>
-{{ with .Site.Params.Banner }}<div class="banner">{{.}}</div>{{ end }}
+{{ with .Site.Params.Banner }}<div class="banner">{{ . }}</div>{{ end }}

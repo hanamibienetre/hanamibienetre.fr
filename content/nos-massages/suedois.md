@@ -3,6 +3,7 @@ title: "Suédois"
 date: 2020-11-08T00:52:59+01:00
 draft: false
 image: "/images/massages/suedois.jpg"
+thumbnail: "/thumbnails/massages/suedois.jpg"
 subtitle: "A partir de 30 €"
 ---
 

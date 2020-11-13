@@ -1,7 +1,8 @@
 ---
 date: 2020-11-08T01:52:59+01:00
 title: Contact
-layout: contact
+draft: false
+contact: true
 ---
 
 ## Marie Gosset
@@ -15,9 +16,3 @@ Les massages bien-être ne sont pas à caractère sexuel.
 
 
 ## Uniquement sur rendez-vous
-
-4 Impasse Lénine, 78800 Houilles, France
-
-06 15 04 73 69
-
-marie@hanabibienetre.fr
