@@ -1,13 +1,13 @@
-<nav aria-role="nav">
+<nav aria-role="nav" class="menu">
     <a href="/">{{.Site.Title}}</a>
-    <ul class="main">
+    <ul class="menu-main">
         {{ with .Site.GetPage "home" -}}
         {{ range .Pages }}<li><a href="{{.Permalink}}">{{.Title}}</a></li>{{ end -}}
         {{ end -}}
         <li><a href="https://widget.treatwell.fr/salon/hanami-bien-etre/" class="rdv" target="_blank" rel="noopener">Prendre rendez-vous</a></li>
     </ul>
     {{if .Site.Params.Social -}}
-    <ul class="social">
+    <ul class="menu-social">
         {{- range .Site.Params.Social -}}
         {{ $url := urls.Parse . -}}
         {{ $ref := index (split $url.Host ".") 1 -}}

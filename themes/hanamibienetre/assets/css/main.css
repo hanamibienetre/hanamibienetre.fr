@@ -1,0 +1,61 @@
+/* bleu : 1d3155 */
+/* rose : e3bbce */
+html {
+  color: #333333;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+div, nav {
+  box-sizing: border-box;
+}
+
+.banner {
+  background-color: rgba(255,0,0,0.8);
+  color: #ffffff;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.menu {
+  background-color: #1d3155;
+  color: #ffffff;
+  flex: 0 0 25%;
+  height: 100vh;
+  overflow: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu a, .menu a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menu a:hover, .menu a:focus {
+  color: #e3bbce;
+}
+
+#content {
+  flex: 1 0 75%;
+  height: 100%;
+  overflow: auto;
+}
