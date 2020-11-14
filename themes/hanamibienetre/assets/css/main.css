@@ -53,8 +53,7 @@ html {
 }
 
 .header {
-  background: #1d3155 url("/images/logo-fond.png") no-repeat left bottom;
-  background-size: contain;
+  background: #1d3155 url("/images/flower.png") no-repeat left bottom;
   color: #ffffff;
   flex: 0 0 30%;
   height: 100vh;
