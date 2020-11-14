@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main aria-role="main" class="not-found">
     <article>
-        <h1>{{ .Title}}</h1>
+        <h1>{{if .Params.Product}}<a href="{{ .Parent.Permalink }}">{{ .Parent.Title }}</a> > {{ end }}{{ .Title}}</h1>
         {{ with .Params.Subtitle }}<h2>{{ . }}</h2>{{ end }}
         {{ if and .Params.Image (not .Params.Contact)}}<img src="{{ .Params.Image }}" alt="{{ htmlEscape .Title }}">{{ end }}
         <div class="single">{{ .Content}}</div>
