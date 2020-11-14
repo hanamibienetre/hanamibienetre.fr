@@ -5,6 +5,7 @@ draft: false
 image: "images/massages/personnalise.jpg"
 thumbnail: "/thumbnails/massages/personnalise.jpg"
 subtitle: "A partir de 30 €"
+product: true
 ---
 
 # Personnalisé

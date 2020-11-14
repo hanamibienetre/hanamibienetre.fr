@@ -5,13 +5,20 @@
         {{ with .Params.Subtitle }}<h2>{{ . }}</h2>{{ end }}
         {{ if and .Params.Image (not .Params.Contact)}}<img src="{{ .Params.Image }}" alt="{{ htmlEscape .Title }}">{{ end }}
         <div class="single">{{ .Content}}</div>
-        {{ if .Params.Contact }}
-            {{ if .Params.Image }}<a href="{{ .Site.Params.mapURL }}" target="_blank" rel="noopener"><img src="{{ .Params.Image }}" alt="{{ htmlEscape .Title }}"></a>{{ end }}
+        {{- if .Params.Product }}
+            <a href="{{ .Site.Params.BookURL }}" class="rdv" target="_blank" rel="noopener">Prendre rendez-vous en ligne</a>
+        {{ end -}}
+        {{- if .Params.Contact }}
+            <div class="contact">
+            {{- if .Params.Image }}
+                <a href="{{ .Site.Params.MapURL }}" target="_blank" rel="noopener"><img src="{{ .Params.Image }}" alt="{{ htmlEscape .Title }}"></a>
+            {{ end }}
             <ul>
-                <li class="address"><a href="{{ .Site.Params.mapURL }}" target="_blank" rel="noopener">{{ .Site.Params.Address }}</a></li>
+                <li class="address"><a href="{{ .Site.Params.MapURL }}" target="_blank" rel="noopener">{{ .Site.Params.Address }}</a></li>
                 {{ with .Site.Params.Phone }}<li class="phone"><i>Tel: </i><a href="tel:{{ strings.Replace . " " "" }}">{{ . }}</a></li>{{ end }}
                 {{ with .Site.Params.Email }}<li class="email"><i>Email: </i><a href="mailto:{{ . }}">{{ . }}</a></li>{{ end }}
             </ul>
+            </div>
         {{ end}}
     </article>
 </main>

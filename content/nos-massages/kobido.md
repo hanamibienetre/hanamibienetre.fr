@@ -5,6 +5,7 @@ draft: false
 image: "/images/massages/kobido.jpg"
 thumbnail: "/thumbnails/massages/kobido.jpg"
 subtitle: "65 €"
+product: true
 ---
 
 # Kobido

@@ -5,6 +5,7 @@ draft: false
 image: "/images/massages/tuina-corps.jpg"
 thumbnail: "/thumbnails/massages/tuina-corps.jpg"
 subtitle: "A partir de 60 €"
+product: true
 ---
 
 # Tuina corps

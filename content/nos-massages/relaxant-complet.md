@@ -5,6 +5,7 @@ draft: false
 image: "/images/massages/relaxant-complet.jpg"
 thumbnail: "/thumbnails/massages/relaxant-complet.jpg"
 subtitle: "60 €"
+product: true
 ---
 
 # Relaxant complet

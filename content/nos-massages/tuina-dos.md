@@ -5,6 +5,7 @@ draft: false
 image: "/images/massages/tuina-dos.jpg"
 thumbnail: "/thumbnails/massages/tuina-dos.jpg"
 subtitle: "60 €"
+product: true
 ---
 
 # Tuina dos

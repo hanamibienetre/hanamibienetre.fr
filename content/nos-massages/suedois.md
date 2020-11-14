@@ -5,6 +5,7 @@ draft: false
 image: "/images/massages/suedois.jpg"
 thumbnail: "/thumbnails/massages/suedois.jpg"
 subtitle: "A partir de 30 €"
+product: true
 ---
 
 # Suédois
