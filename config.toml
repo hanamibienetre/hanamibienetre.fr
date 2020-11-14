@@ -2,7 +2,7 @@ baseURL = "https://hanamibienetre.fr/"
 languageCode = "fr-FR"
 title = "Hanami Bien-être"
 theme = "hanamibienetre"
-paginate = 15
+paginate = 5
 
 [params]
     author = "Marie Gosset"

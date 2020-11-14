@@ -1,26 +1,44 @@
 {{ define "main" }}
-<main>
-    <header>
-        <h1>{{.Title}}</h1>
-        {{.Content}}
-    </header>
-    {{ range .Paginator.Pages }}
-    <article class="list">
-    {{ if  .Params.News }}
-        <h2>{{ .Title }}</h2>
-        <ul class="list-inline">
-            <li><i>Par </i>{{ .Site.Params.Author }}</li>
-            <li><i>Le </i>{{ .PublishDate.Format "02 Jan, 2006" }}</li>
-        </ul>
-        {{ if .Params.Image }}<img src="{{ .Params.Image }}" alt="{{ htmlEscape .Title }}">{{ end }}
-        {{ .Content }}
-    {{ else }}
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-        {{ with .Params.Subtitle }}<p>{{ . }}</p>{{ end }}
-        {{ if .Params.Thumbnail }}<img src="{{ .Params.Thumbnail }}" alt="{{ htmlEscape .Title }}">{{ end }}
-    {{ end }}
-    </article>
-    {{ end }}
-    {{ template "_internal/pagination.html" . }}
+<main aria-role="main" class="page">
+    <div class="content">
+        {{ if .Params.News }}
+        <div class="news">
+            <h2 class="news-title">{{.Title}}</h2>
+            {{.Content}}
+            <ul class="news-list">
+                {{- range .Paginator.Pages }}
+                <li class="news-item">
+                    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                    <div class="news-info">
+                        <span><i>Par </i>{{ .Site.Params.Author }}</span>
+                        <span><i>Le </i>{{ .PublishDate.Format "02 Jan, 2006" }}</span>
+                    </div>
+                    {{ if .Params.Image }}<img src="{{ .Params.Image }}" alt="{{ htmlEscape .Title }}">{{ end }}
+                    {{ .Content }}
+                </li>
+                {{- end }}
+            </ul>
+        </div>
+        {{ else }}
+        <div class="cares">
+            <h2 class="cares-title">{{.Title}}</h2>
+            {{.Content}}
+            <ul class="cares-list">
+                {{- range .Paginator.Pages }}
+                <li class="care-item">
+                    <a href="{{ .Permalink }}">
+                        <img src="{{ .Params.Thumbnail }}" alt="{{ htmlEscape .Title }}" class="care-visual">
+                        <div class="care-details">
+                            <h3 class="care-title">{{ .Title }}</h3>
+                            <p class="care-text">{{ .Params.Subtitle }}</p>
+                        </div>
+                    </a>
+                </li>
+                {{- end }}
+            </ul>
+        </div>
+        {{ end }}
+        {{ template "_internal/pagination.html" . }}
+    </div>
 </main>
 {{ end }}

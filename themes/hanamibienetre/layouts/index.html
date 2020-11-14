@@ -1,24 +1,9 @@
 {{ define "main" }}
 <main aria-role="main" class="homepage">
     <div class="content">
-        {{ with .Site.GetPage "nos-massages" }}
-        <div class="cares">
-            <h2 class="cares-title">{{.Title}}</h2>
-            <ul class="cares-list">
-            {{- range .Pages }}
-                <li class="care-item">
-                    <a href="{{ .Permalink }}" class="">
-                        <img src="{{ .Params.Thumbnail }}" alt="{{ htmlEscape .Title }}" class="care-visual">
-                        <div class="care-details">
-                            <h3 class="care-title">{{ .Title }}</h3>
-                            <p class="care-text">{{ .Params.Subtitle }}</p>
-                        </div>
-                    </a>
-                </li>
-            {{- end }}
-            </ul>
-        </div>
-        {{ end }}
+        <h2 class="title">{{.Title}}</h2>
+        {{with .Params.Subtitle }}<p class="subtitle">{{ . }}</p>{{- end }}
+        {{ .Content }}
     </div>
 </main>
 {{ end }}
