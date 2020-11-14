@@ -1,21 +1,18 @@
 {{ define "main" }}
 <main aria-role="main" class="homepage">
-    <header>
-        <h1>{{.Title}}</h1>
-        {{ with .Params.subtitle }}<span class="subtitle">{{.}}</span>{{ end }}
-    </header>
     <div class="content">
-        {{.Content}}
         {{ with .Site.GetPage "nos-massages" }}
-        <div class="list">
-            <h2>{{.Title}}</h2>
-            <ul>
+        <div class="cares">
+            <h2 class="cares-title">{{.Title}}</h2>
+            <ul class="cares-list">
             {{- range .Pages }}
-                <li>
-                    <a href="{{ .Permalink }}">
-                        <img src="{{ .Params.Thumbnail }}" alt="{{ htmlEscape .Title }}">
-                        <h3>{{ .Title }}</h3>
-                        <p>{{ .Params.Subtitle }}</p>
+                <li class="care-item">
+                    <a href="{{ .Permalink }}" class="">
+                        <img src="{{ .Params.Thumbnail }}" alt="{{ htmlEscape .Title }}" class="care-visual">
+                        <div class="care-details">
+                            <h3 class="care-title">{{ .Title }}</h3>
+                            <p class="care-text">{{ .Params.Subtitle }}</p>
+                        </div>
                     </a>
                 </li>
             {{- end }}

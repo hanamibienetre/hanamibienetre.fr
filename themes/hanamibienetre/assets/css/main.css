@@ -1,10 +1,11 @@
 /* bleu : 1d3155 */
 /* rose : e3bbce */
 html {
+  background-color: #f6f6f6;
   color: #333333;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Popins', sans-serif;
   font-size: 1rem;
-  line-height: 1.4rem;
+  line-height: 1.475rem;
 }
 
 .banner {
@@ -63,7 +64,7 @@ html {
 .menu {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
 
   background:rgba(0, 0, 0, 0.4);
   height: 100%;
@@ -87,7 +88,7 @@ html {
 
 .menu-logo {
   align-self: flex-end;
-  margin-bottom: auto;
+  margin-bottom: 100px;
 }
 
 .menu-main {
@@ -115,7 +116,7 @@ html {
   width: 100%;
 }
 
-.menu-social a {
+.menu-social a, .menu-social a:active {
   display:flex;
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 50%;
@@ -130,7 +131,72 @@ html {
 }
 
 #content {
-  flex: 1 0 75%;
+  flex: 1 0 70%;
   height: 100%;
   overflow: auto;
+  padding: 40px;
+}
+
+.cares-title {
+  color: #333333;
+  font-size: 2.3rem;
+  font-weight: 400;
+  margin: 1rem 0 4rem;
+}
+
+.cares-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 25px;
+
+  list-style-type: none;
+  margin: 30px 0;
+  padding: 0;
+}
+
+.care-item {
+  position: relative;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.care-item:hover {
+}
+
+.care-item a {
+  text-decoration: none;
+}
+
+.care-visual {
+  border-radius: 3px;
+  display: block;
+  /* filter: opacity(80%); */
+  height: auto;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+}
+
+.care-item a:hover .care-visual {
+  filter: opacity(100%);
+}
+
+.care-title, .care-text {
+  margin: 0;
+}
+
+.care-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0.2rem 0 0;
+}
+
+.care-text {
+  font-size: 1rem;
+}
+
+.care-details {
+  color: #333333;
+  padding: 6px;
+  width: 100%;
 }
