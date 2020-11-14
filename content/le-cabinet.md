@@ -20,7 +20,7 @@ Ainsi, je connais plusieurs techniques : chinoise, ayurvedique, lomi lomi, kobid
 En octobre 2018, je me lance et ouvre mon cabinet de massage **Hanami Bien Être**.
 
 > J’ai une passion pour les fleurs , **hanami**: hana 花, "fleur" et mi 見, "regarder", 
-> c’est donc regarder les fleurs japonais. 
+> c’est donc regarder les fleurs en japonais. 
 
 Mon soin commence toujours par un questionnaire informel qui me permet d’apprendre à connaître mes clients.
 Qu’ils formulent exactement ce qu’ils attendent, ou qu’ils ne sachent pas tout à fait quel massage choisir.

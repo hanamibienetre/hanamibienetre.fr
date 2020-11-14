@@ -3,7 +3,10 @@
     <div class="content">
         {{ if .Params.News }}
         <div class="news">
-            <h2 class="news-title">{{.Title}}</h2>
+            <header class="main-title">
+                <h2>{{.Title}}</h2>
+                <span class="main-decorate"></span>
+            </header>
             {{.Content}}
             <ul class="news-list">
                 {{- range .Paginator.Pages }}
@@ -21,9 +24,9 @@
         </div>
         {{ else }}
         <div class="cares">
-            <header class="cares-title">
+            <header class="main-title">
                 <h2>{{.Title}}</h2>
-                <span class="cares-decorate"></span>
+                <span class="main-decorate"></span>
             </header>
             {{.Content}}
             <ul class="cares-list">

@@ -1,6 +1,7 @@
 {{ define "main" }}
 <main aria-role="main" class="homepage">
     <div class="content">
+        <img src="{{ .Params.Image }}" alt="{{ htmlEscape .Title }}">
         <h2 class="title">{{.Title}}</h2>
         {{with .Params.Subtitle }}<p class="subtitle">{{ . }}</p>{{- end }}
         {{ .Content }}

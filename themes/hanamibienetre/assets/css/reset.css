@@ -7,3 +7,7 @@ html, body {
 div, nav {
   box-sizing: border-box;
 }
+
+a {
+  text-decoration: none;
+}

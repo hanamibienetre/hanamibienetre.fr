@@ -52,8 +52,19 @@ html {
   overflow: hidden;
 }
 
+.homepage {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.homepage .content {
+  padding: 60px 40px;
+}
+
 .header {
-  background: #1d3155 url("/images/flower.png") no-repeat left bottom;
+  background: #1d3155 url("/images/flower.png") no-repeat 20% bottom;
   color: #ffffff;
   flex: 0 0 30%;
   height: 100vh;
@@ -80,6 +91,10 @@ html {
   color: #e3bbce;
 }
 
+.menu .rdv a:hover, .menu .rdv a:focus {
+  color: #ffffff;
+}
+
 .menu ul, .pagination {
   list-style-type: none;
   padding: 0;
@@ -102,9 +117,13 @@ html {
 }
 
 .menu-main .rdv {
-  border-top: 3px dotted rgba(227, 187, 206, 0.4);
-  margin-top: 10px;
-  padding-top: 10px;
+  border-right: 5px solid rgba(227, 187, 206, 0.6);
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.menu-main .rdv a {
+  color: #e3bbce;
 }
 
 .menu-social {
@@ -129,6 +148,14 @@ html {
   color: #1d3155;
 }
 
+.main-title a, .main-title a:visited {
+  color: #1d3155;
+}
+
+.main-title a:focus, .main-title a:hover {
+  color: #e3bbce;
+}
+
 #content {
   flex: 1 0 70%;
   height: 100%;
@@ -136,20 +163,20 @@ html {
   padding: 40px;
 }
 
-.cares-title {
+.main-title {
   display: flex;
   flex-direction: row;
   margin: 1rem 0 4rem;
 }
 
-.cares-title h2 {
+.main-title h2 {
   color: #333333;
   font-size: 2.3rem;
   font-weight: 400;
   margin: 0;
 }
 
-.cares-decorate {
+.main-decorate {
   background-color: #e3bbce;
   flex-grow: 1;
   height: 5px;
