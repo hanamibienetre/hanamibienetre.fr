@@ -8,13 +8,38 @@ html {
 }
 
 .banner {
-  background-color: rgba(255,0,0,0.8);
-  color: #ffffff;
-  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  color: #333333;
+  padding: 40px;
+  position: relative;
+  width: 50vw;
+}
+
+.banner-close {
+  cursor: pointer;
+  display: block;
+  padding: 6px;
   position: absolute;
-  top: 0;
+  right: 12px;
+  top: 12px;
+}
+.banner-close svg {
+  display: block;
+}
+
+.modale {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
   left: 0;
-  width: 100%;
+  right: 0;
+  top: 0;
+  z-index: 10;
 }
 
 .main {
@@ -36,9 +61,13 @@ html {
 }
 
 .menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   background:rgba(0, 0, 0, 0.4);
   height: 100%;
-  padding: 60px 40px 40px 20px;
+  padding: 60px 20px 40px;
 }
 
 .menu a, .menu a:visited {
@@ -56,6 +85,11 @@ html {
   padding: 0;
 }
 
+.menu-logo {
+  align-self: flex-end;
+  margin-bottom: auto;
+}
+
 .menu-main {
   margin: 1em 0;
 }
@@ -63,19 +97,22 @@ html {
 .menu-main a {
   display: block;
   font-weight: bold;
-  padding: 8px;
-  border-bottom: 1px dotted rgba(227, 187, 206, 0.4);
+  padding: 10px;
+  text-align: right;
 }
 
-.menu-main li:last-of-type a {
-  border-bottom: 0;
+.menu-main .rdv {
+  border-top: 3px dotted rgba(227, 187, 206, 0.4);
+  margin-top: 10px;
+  padding-top: 10px;
 }
 
 .menu-social {
   display: flex;
   flex-direction: row;
-  margin: 0 8px;
-  gap: 12px;
+  align-items: center;
+  justify-content: right;
+  width: 100%;
 }
 
 .menu-social a {
@@ -83,6 +120,7 @@ html {
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 50%;
   color: #1d3155;
+  margin: 0 10px;
   padding: 8px;
 }
 
