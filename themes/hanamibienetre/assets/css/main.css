@@ -81,7 +81,7 @@ html {
   color: #e3bbce;
 }
 
-.menu ul {
+.menu ul, .pagination {
   list-style-type: none;
   padding: 0;
 }
@@ -138,11 +138,25 @@ html {
 }
 
 .cares-title {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0 4rem;
+}
+
+.cares-title h2 {
   color: #333333;
   font-size: 2.3rem;
   font-weight: 400;
-  margin: 1rem 0 4rem;
+  margin: 0;
 }
+
+.cares-decorate {
+  background-color: #e3bbce;
+  flex-grow: 1;
+  height: 5px;
+  margin: 1em 0 0 1em;
+}
+
 
 .cares-list {
   display: grid;
@@ -158,9 +172,6 @@ html {
   position: relative;
   text-align: center;
   transition: all 0.2s ease-in-out;
-}
-
-.care-item:hover {
 }
 
 .care-item a {
@@ -199,4 +210,46 @@ html {
   color: #333333;
   padding: 6px;
   width: 100%;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  justify-content: center;
+}
+
+.pagination .page-item a,
+.pagination .page-item a:visited {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  color: #333333;
+  font-weight: 600;
+  height: 2rem;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  width: 2rem;
+}
+
+.pagination .page-item.active a,
+.pagination .page-item.active a:focus,
+.pagination .page-item.active a:hover {
+  cursor: default;
+  background-color: transparent;
+  border: 0;
+}
+
+.pagination .page-item a:focus,
+.pagination .page-item a:hover {
+  background-color: #dddddd;
+}
+
+.pagination .page-item.disabled {
+  filter: opacity(60%);
+  pointer-events: none;
 }
