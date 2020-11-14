@@ -3,6 +3,7 @@ languageCode = "fr-FR"
 title = "Hanami Bien-être"
 theme = "hanamibienetre"
 paginate = 5
+enableRobotsTXT = true
 
 [params]
     author = "Marie Gosset"

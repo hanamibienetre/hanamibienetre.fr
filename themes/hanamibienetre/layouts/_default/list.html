@@ -8,7 +8,7 @@
             <ul class="news-list">
                 {{- range .Paginator.Pages }}
                 <li class="news-item">
-                    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                    <h3>{{ .Title }}</h3>
                     <div class="news-info">
                         <span><i>Par </i>{{ .Site.Params.Author }}</span>
                         <span><i>Le </i>{{ .PublishDate.Format "02 Jan, 2006" }}</span>
