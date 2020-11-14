@@ -3,7 +3,7 @@
 html {
   background-color: #f6f6f6;
   color: #333333;
-  font-family: 'Popins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1rem;
   line-height: 1.475rem;
 }
@@ -170,14 +170,14 @@ html {
 .care-visual {
   border-radius: 3px;
   display: block;
-  /* filter: opacity(80%); */
+  filter: brightness(100%);
   height: auto;
   transition: all 0.2s ease-in-out;
   width: 100%;
 }
 
 .care-item a:hover .care-visual {
-  filter: opacity(100%);
+  filter: brightness(80%);
 }
 
 .care-title, .care-text {
