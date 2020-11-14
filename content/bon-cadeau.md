@@ -1,10 +1,10 @@
 ---
 title: "Bon cadeau"
+subtitle: "Vous recherchez un cadeau original ?"
 date: 2020-11-010T01:52:59+01:00
 draft: false
+image: "/images/bon-cadeau.jpg"
 ---
-
-## Vous recherchez un cadeau original ?
 
 Offrez un moment de bien-être et de détente à vos proches pour tous les évènements : 
 
@@ -19,4 +19,4 @@ Offrez un moment de bien-être et de détente à vos proches pour tous les évè
 
 Bon cadeau valable 6 mois.
 
-A récupérer au cabinet. Il peut également vous être envoyé par mail. [Contactez-nous !]({{< ref "/contact" >}} "Contactez-nous")
+A récupérer au cabinet. Il peut également vous être envoyé par mail : [contactez-nous !]({{< ref "/contact" >}} "Contactez-nous !")

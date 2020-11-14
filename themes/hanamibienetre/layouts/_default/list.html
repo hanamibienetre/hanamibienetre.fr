@@ -9,7 +9,7 @@
     {{ if  .Params.News }}
         <h2>{{ .Title }}</h2>
         <ul class="list-inline">
-            <li><i>Par </i>{{ .Params.Author }}</li>
+            <li><i>Par </i>{{ .Site.Params.Author }}</li>
             <li><i>Le </i>{{ .PublishDate.Format "02 Jan, 2006" }}</li>
         </ul>
         {{ if .Params.Image }}<img src="{{ .Params.Image }}" alt="{{ htmlEscape .Title }}">{{ end }}

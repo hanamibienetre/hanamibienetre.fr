@@ -2,14 +2,15 @@
 <main aria-role="main" class="not-found">
     <article>
         <h1>{{ .Title}}</h1>
+        {{ with .Params.Subtitle }}<h2>{{ . }}</h2>{{ end }}
         {{ if and .Params.Image (not .Params.Contact)}}<img src="{{ .Params.Image }}" alt="{{ htmlEscape .Title }}">{{ end }}
         <div class="single">{{ .Content}}</div>
         {{ if .Params.Contact }}
-            {{ if .Params.Image }}<img src="{{ .Params.Image }}" alt="{{ htmlEscape .Title }}">{{ end }}
+            {{ if .Params.Image }}<a href="{{ .Site.Params.mapURL }}" target="_blank" rel="noopener"><img src="{{ .Params.Image }}" alt="{{ htmlEscape .Title }}"></a>{{ end }}
             <ul>
-                {{ with .Site.Params.Address }}<li class="address">{{ . }}</li>{{ end }}
-                {{ with .Site.Params.Phone }}<li class="phone"><i>Tel: </i>{{ . }}</li>{{ end }}
-                {{ with .Site.Params.Email }}<li class="email"><i>Email: </i>{{ . }}</li>{{ end }}
+                <li class="address"><a href="{{ .Site.Params.mapURL }}" target="_blank" rel="noopener">{{ .Site.Params.Address }}</a></li>
+                {{ with .Site.Params.Phone }}<li class="phone"><i>Tel: </i><a href="tel:{{ strings.Replace . " " "" }}">{{ . }}</a></li>{{ end }}
+                {{ with .Site.Params.Email }}<li class="email"><i>Email: </i><a href="mailto:{{ . }}">{{ . }}</a></li>{{ end }}
             </ul>
         {{ end}}
     </article>
