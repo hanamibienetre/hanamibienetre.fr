@@ -5,6 +5,7 @@ draft: false
 image: "/images/massages/chrong-mai.jpg"
 thumbnail: "/thumbnails/massages/chrong-mai.jpg"
 subtitle: "A partir de 60 €"
+product: true
 ---
 
 # Énergétique chinois : Chrong Mai

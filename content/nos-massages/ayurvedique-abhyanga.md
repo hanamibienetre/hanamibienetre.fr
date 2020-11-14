@@ -2,9 +2,10 @@
 title: "Ayurvédique Abhyanga"
 date: 2020-11-08T00:52:59+01:00
 draft: false
-image: "/images/massages/ayurvedique-abhyanga.jpg"
-thumbnail: "/thumbnails/massages/ayurvedique-abhyanga.jpg"
+image: "/images/massages/ayurvedique.jpg"
+thumbnail: "/thumbnails/massages/ayurvedique.jpg"
 subtitle: "A partir de 80 €"
+product: true
 ---
 
 # Ayurvédique Abhyanga

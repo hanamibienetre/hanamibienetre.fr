@@ -5,8 +5,7 @@
             {{ with .Site.GetPage "home" -}}
             {{ range .Pages }}<li><a href="{{.Permalink}}">{{.Title}}</a></li>{{ end -}}
             {{ end -}}
-            <li class="rdv"><a href="https://widget.treatwell.fr/salon/hanami-bien-etre/" target="_blank"
-                    rel="noopener">Prendre rendez-vous</a></li>
+            <li class="rdv"><a href="{{ .Site.Params.BookURL }}" target="_blank" rel="noopener">Prendre rendez-vous</a></li>
         </ul>
         {{if .Site.Params.Social -}}
         <ul class="menu-social">

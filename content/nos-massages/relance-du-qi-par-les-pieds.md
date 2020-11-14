@@ -2,9 +2,10 @@
 title: "Relance du QI par les pieds"
 date: 2020-11-08T00:52:59+01:00
 draft: false
-image: "/images/massages/relance-du-qi-par-les-pieds.jpg"
-thumbnail: "/thumbnails/massages/relance-du-qi-par-les-pieds.jpg"
+image: "/images/massages/qi.jpg"
+thumbnail: "/thumbnails/massages/qi.jpg"
 subtitle: "30 €"
+product: true
 ---
 
 # Relance du QI par les pieds

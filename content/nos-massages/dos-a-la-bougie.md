@@ -5,6 +5,7 @@ draft: false
 image: "/images/massages/dos-a-la-bougie.jpg"
 thumbnail: "/thumbnails/massages/dos-a-la-bougie.jpg"
 subtitle: "30 €"
+product: true
 ---
 
 # Dos à la bougie

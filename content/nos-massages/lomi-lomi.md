@@ -5,6 +5,7 @@ draft: false
 image: "/images/massages/lomi-lomi.jpg"
 thumbnail: "/thumbnails/massages/lomi-lomi.jpg"
 subtitle: "60 €"
+product: true
 ---
 
 # Lomi Lomi
