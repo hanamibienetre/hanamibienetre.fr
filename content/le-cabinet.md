@@ -3,6 +3,7 @@ title: "Le cabinet"
 subtitle: "Qui se cache derrière ces mains qui massent ?"
 date: 2020-11-08T01:52:59+01:00
 draft: false
+image: "/images/le-cabinet.jpg"
 ---
 
 Je suis **Marie**, praticienne en massage bien-être.
