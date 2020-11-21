@@ -8,8 +8,6 @@ subtitle: "A partir de 80 €"
 product: true
 ---
 
-# Ayurvédique Abhyanga
-
 1. 1h30: __80 €__
 1. Cure conseillée de 3 massages: __225 €__
 

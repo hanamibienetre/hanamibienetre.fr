@@ -8,12 +8,10 @@ subtitle: "A partir de 30 €"
 product: true
 ---
 
-# Suédois
-
-+ 30min: __30 €__
-+ 1h: __60 €__
-+ 1h30: __80 €__
-+ 2h: __110 €__
+1. 30min: __30 €__
+1. 1h: __60 €__
+1. 1h30: __80 €__
+1. 2h: __110 €__
 
 Un massage doux et ferme qui soulage les douleurs musculaires et renforce leur tonus et relaxe.
 Il améliore la circulation sanguine, élimine les toxines.

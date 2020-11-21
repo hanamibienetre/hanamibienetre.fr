@@ -8,9 +8,7 @@ subtitle: "30 €"
 product: true
 ---
 
-# Relance du QI par les pieds
-
-+ 30m: __30 €__
+1. 30m: __30 €__
 
 Un massage qui relance l'énergie vitale par stimulation de points d'acupression, de frictions et de massage énergétique.
 Idéal en cas de fatigue ou de jambes lourdes.

@@ -1,16 +1,16 @@
 {{ define "main" }}
 <main aria-role="main" class="page">
     <header class="main-title">
-        <h1 class="title-text">{{if .Params.Product}}<a href="{{ .Parent.Permalink }}">{{ .Parent.Title }}</a> > {{ end }}{{.Title}}</h1>
+        <h1 class="title-text">{{if .Params.Product}}{{ .Parent.Title }}{{ else }}{{.Title}}{{ end }}</h1>
         <span class="main-decorate"></span>
     </header>
     <article>
+        {{- if .Params.Product }}
         <div class="page-titles">
-            {{ with .Params.Subtitle }}<h3 class="page-title">{{ . }}</h3>{{ end }}
-            {{- if .Params.Product }}
-                <span class="page-rdv"><a href="{{ .Site.Params.BookURL }}" target="_blank" rel="noopener" class="button">Prendre rendez-vous</a></span>
-            {{ end -}}
+            <h2 class="page-title">{{ .Title }}</h2>
+            <span class="page-rdv"><a href="{{ .Site.Params.BookURL }}" target="_blank" rel="noopener" class="button">Prendre rendez-vous</a></span>
         </div>
+        {{ end -}}
         {{ if and .Params.Image (not .Params.Contact)}}<img src="{{ .Params.Image }}" alt="{{ htmlEscape .Title }}" class="picture">{{ end }}
         <div class="single">{{ .Content}}</div>
         {{- if .Params.Product }}

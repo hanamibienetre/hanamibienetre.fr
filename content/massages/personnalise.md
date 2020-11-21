@@ -8,8 +8,6 @@ subtitle: "A partir de 30 €"
 product: true
 ---
 
-# Personnalisé
-
 1. 30 min:  __30 €__
 1. 1h: __60 €__
 1. 1h30: __80 €__

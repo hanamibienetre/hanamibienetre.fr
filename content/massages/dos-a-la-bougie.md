@@ -8,8 +8,6 @@ subtitle: "30 €"
 product: true
 ---
 
-# Dos à la bougie
-
 1. 30min: __30 €__
 
 Un massage relaxant, cocoon.

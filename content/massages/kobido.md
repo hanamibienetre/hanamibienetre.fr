@@ -8,8 +8,6 @@ subtitle: "65 €"
 product: true
 ---
 
-# Kobido
-
 1. 45min: __65 €__
 
 Un massage ancestral japonais du visage qui permet de rééquilibrer, stimuler la circulation de l'énergie du visage et du cou.

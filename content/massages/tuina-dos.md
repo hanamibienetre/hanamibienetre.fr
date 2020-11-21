@@ -8,9 +8,7 @@ subtitle: "60 €"
 product: true
 ---
 
-# Tuina dos
-
-+ 1h: __60 €__
+1. 1h: __60 €__
 
 Massage traditionnel chinois, effectué avec des acupressions et des frictions.
 Il soulage des tensions, libère l'énergie et procure un bien-être immédiat avec une sensation de légèreté.

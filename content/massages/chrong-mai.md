@@ -8,9 +8,7 @@ subtitle: "A partir de 60 €"
 product: true
 ---
 
-# Énergétique chinois : Chrong Mai
-
-1.  1h: __60 €__
+1. 1h: __60 €__
 1. Cure conseillée de 3 massages : __165 €__
 
 Soin ancestral chinois, énergétique, apaisant, qui permet de se recentrer et de relancer l'énergie vitale dans le corps.
