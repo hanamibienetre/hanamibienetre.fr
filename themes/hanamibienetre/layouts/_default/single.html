@@ -5,11 +5,13 @@
         <span class="main-decorate"></span>
     </header>
     <article>
-        <div class="article-title">
+        <div class="title">
             {{ with .Params.Subtitle }}<h3>{{ . }}</h3>{{ end }}
-            <span class="rdv"><a href="{{ .Site.Params.BookURL }}" target="_blank" rel="noopener">Prendre rendez-vous</a></span>
+            {{- if .Params.Product }}
+                <span class="rdv"><a href="{{ .Site.Params.BookURL }}" target="_blank" rel="noopener">Prendre rendez-vous</a></span>
+            {{ end -}}
+            {{ if and .Params.Image (not .Params.Contact)}}<img src="{{ .Params.Image }}" alt="{{ htmlEscape .Title }}">{{ end }}
         </div>
-        {{ if and .Params.Image (not .Params.Contact)}}<img src="{{ .Params.Image }}" alt="{{ htmlEscape .Title }}">{{ end }}
         <div class="single">{{ .Content}}</div>
         {{- if .Params.Product }}
            <p class="rdv" ><a href="{{ .Site.Params.BookURL }}" target="_blank" rel="noopener">Prendre rendez-vous</a></p>
