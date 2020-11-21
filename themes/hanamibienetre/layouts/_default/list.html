@@ -1,10 +1,10 @@
 {{ define "main" }}
-<main aria-role="main" class="page">
+<main aria-role="main" class="page-list">
     <div class="content">
         {{ if .Params.News }}
         <div class="news">
             <header class="main-title">
-                <h2>{{.Title}}</h2>
+                <h1 class="title-text">{{.Title}}</h1>
                 <span class="main-decorate"></span>
             </header>
             {{.Content}}
@@ -25,7 +25,7 @@
         {{ else }}
         <div class="cares">
             <header class="main-title">
-                <h2>{{.Title}}</h2>
+                <h1 class="title-text">{{.Title}}</h1>
                 <span class="main-decorate"></span>
             </header>
             {{.Content}}

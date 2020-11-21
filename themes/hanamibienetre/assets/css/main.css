@@ -5,7 +5,7 @@ html {
   color: #333333;
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
-  line-height: 1.475rem;
+  line-height: 1.475em;
 }
 
 .banner {
@@ -116,7 +116,7 @@ html {
   text-align: right;
 }
 
-.menu-main .rdv, .page .rdv {
+.menu-main .rdv {
   border-right: 5px solid rgba(227, 187, 206, 0.6);
   font-size: 1.2rem;
   margin-top: 20px;
@@ -124,10 +124,6 @@ html {
 
 .menu-main .rdv a {
   color: #e3bbce;
-}
-
-.page .rdv a, .page .rdv a:visited {
-  color: #1d3155;
 }
 
 .menu-social {
@@ -174,10 +170,11 @@ html {
   margin: 1rem 0 4rem;
 }
 
-.main-title h2 {
+.main-title .title-text {
   color: #333333;
   font-size: 2.3rem;
   font-weight: 400;
+  line-height: 1.2em;
   margin: 0;
 }
 
@@ -185,9 +182,8 @@ html {
   background-color: #e3bbce;
   flex-grow: 1;
   height: 5px;
-  margin: 1em 0 0 1em;
+  margin: 1.7em 0 0 1em;
 }
-
 
 .cares-list {
   display: grid;
@@ -288,4 +284,59 @@ html {
 .page blockquote {
   border-left: 5px solid rgba(227, 187, 206, 0.6);
   padding: 0 15px;
+}
+
+.page-titles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 0 0 1.5rem;
+  width: 100%;
+}
+
+.page .page-title {
+  margin: 0;
+}
+
+.page .rdv a, .page .rdv a:visited {
+  color: #1d3155;
+}
+.single + .rdv {
+  margin: 40px 0;
+}
+
+.page .picture {
+  max-width: 100%;
+}
+
+.button {
+  background-color: rgba(227, 187, 206, 0.6);
+  border: 1px solid rgba(227, 187, 206, 0.6);
+  border-radius: 6px;
+  color: #333333;
+  display: block;
+  padding: 8px 16px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:focus, .button:hover {
+  background-color: rgba(227, 187, 206, 1);
+  border: 1px solid rgba(227, 187, 206, 1);
+}
+
+.page h2 {
+  margin: 1.5em 0 1em;
+}
+
+.page ol {
+  font-weight: 600;
+  list-style-type: "🌺";
+  margin-left: 0;
+  padding-left: 25px;
+}
+.page ol li {
+  margin-bottom: 0.6em;
+  padding-left: 10px;
 }

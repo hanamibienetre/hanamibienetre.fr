@@ -1,20 +1,20 @@
 {{ define "main" }}
 <main aria-role="main" class="page">
     <header class="main-title">
-        <h2>{{if .Params.Product}}<a href="{{ .Parent.Permalink }}">{{ .Parent.Title }}</a> > {{ end }}{{.Title}}</h2>
+        <h1 class="title-text">{{if .Params.Product}}<a href="{{ .Parent.Permalink }}">{{ .Parent.Title }}</a> > {{ end }}{{.Title}}</h1>
         <span class="main-decorate"></span>
     </header>
     <article>
-        <div class="title">
-            {{ with .Params.Subtitle }}<h3>{{ . }}</h3>{{ end }}
+        <div class="page-titles">
+            {{ with .Params.Subtitle }}<h3 class="page-title">{{ . }}</h3>{{ end }}
             {{- if .Params.Product }}
-                <span class="rdv"><a href="{{ .Site.Params.BookURL }}" target="_blank" rel="noopener">Prendre rendez-vous</a></span>
+                <span class="page-rdv"><a href="{{ .Site.Params.BookURL }}" target="_blank" rel="noopener" class="button">Prendre rendez-vous</a></span>
             {{ end -}}
-            {{ if and .Params.Image (not .Params.Contact)}}<img src="{{ .Params.Image }}" alt="{{ htmlEscape .Title }}">{{ end }}
         </div>
+        {{ if and .Params.Image (not .Params.Contact)}}<img src="{{ .Params.Image }}" alt="{{ htmlEscape .Title }}" class="picture">{{ end }}
         <div class="single">{{ .Content}}</div>
         {{- if .Params.Product }}
-           <p class="rdv" ><a href="{{ .Site.Params.BookURL }}" target="_blank" rel="noopener">Prendre rendez-vous</a></p>
+           <p class="rdv" ><a href="{{ .Site.Params.BookURL }}" target="_blank" rel="noopener" class="button">Prendre rendez-vous</a></p>
         {{ end -}}
         {{- if .Params.Contact }}
             <div class="contact">
