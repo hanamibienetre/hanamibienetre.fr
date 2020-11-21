@@ -116,7 +116,7 @@ html {
   text-align: right;
 }
 
-.menu-main .rdv {
+.menu-main .rdv, .page .rdv {
   border-right: 5px solid rgba(227, 187, 206, 0.6);
   font-size: 1.2rem;
   margin-top: 20px;
@@ -124,6 +124,10 @@ html {
 
 .menu-main .rdv a {
   color: #e3bbce;
+}
+
+.page .rdv a, .page .rdv a:visited {
+  color: #1d3155;
 }
 
 .menu-social {
@@ -150,6 +154,7 @@ html {
 
 .main-title a, .main-title a:visited {
   color: #1d3155;
+  transition: all 0.2s ease-in-out;
 }
 
 .main-title a:focus, .main-title a:hover {
@@ -278,4 +283,9 @@ html {
 .pagination .page-item.disabled {
   filter: opacity(60%);
   pointer-events: none;
+}
+
+.page blockquote {
+  border-left: 5px solid rgba(227, 187, 206, 0.6);
+  padding: 0 15px;
 }

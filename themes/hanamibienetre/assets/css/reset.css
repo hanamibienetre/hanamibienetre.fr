@@ -11,3 +11,7 @@ div, nav {
 a {
   text-decoration: none;
 }
+
+blockquote {
+  margin: 0;
+}

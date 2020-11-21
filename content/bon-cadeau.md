@@ -17,6 +17,6 @@ Offrez un moment de bien-être et de détente à vos proches pour tous les évè
 
 > Une occasion d'offrir du temps pour soi !
 
-Bon cadeau valable 6 mois.
+Bon cadeau valable 1 an.
 
 A récupérer au cabinet. Il peut également vous être envoyé par mail : [contactez-nous !]({{< ref "/contact" >}} "Contactez-nous !")
