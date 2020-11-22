@@ -44,20 +44,57 @@ html {
 }
 
 .main {
-  display: flex;
-  flex-direction: row;
-
   height: 100%;
   width: 100%;
   overflow: hidden;
 }
 
 .header {
+  display: flex;
+  flex-direction: column;
+
   background: #1d3155 url("/images/flower.png") no-repeat 20% bottom;
+  top: 100%;
   color: #ffffff;
-  flex: 0 0 30%;
   height: 100vh;
-  overflow: auto;
+  overflow: hidden;
+  position: absolute;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+}
+
+.mobile-menu-opener {
+  display: flex;
+  align-items: center;
+
+  background: #efefef;
+  border: #efefef;
+  color: #333333;
+  height: 40px;
+  margin: 10px 10px 10px auto;
+  width: 40px;
+}
+.mobile-menu-opener:focus ~ .header {
+  top: 0;
+}
+
+@media (min-width: 900px) {
+  .main {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header {
+    flex: 0 0 30%;
+    overflow: auto;
+    position: relative;
+    top: 0;
+    width: auto;
+}
+
+  .mobile-menu-opener {
+    display: none;
+  }
 }
 
 .menu {
@@ -147,10 +184,15 @@ html {
 }
 
 #content {
-  flex: 1 0 70%;
   height: 100%;
   overflow: auto;
   padding: 40px;
+}
+
+@media (min-width: 900px) {
+  #content {
+    flex: 1 1 70%;
+  }
 }
 
 .main-title {
