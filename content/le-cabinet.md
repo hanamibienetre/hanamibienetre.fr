@@ -38,7 +38,8 @@ qui « écoutent » le corps de mes clients.
 
 Certains repartent le corps (ou l’esprit) plus léger, d’autres retrouvent des sensations plus fluides.
 
-> Le corps est le seul endroit permanent dans lequel nous sommes amenés à vivre. <cite>Jim Rohn</cite>
+> Le corps est le seul endroit permanent dans lequel nous sommes amenés à vivre.
+> *Jim Rohn*
 
 *Prenez soin de vous*
 
