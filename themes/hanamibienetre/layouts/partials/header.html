@@ -25,7 +25,7 @@
 </header>
 {{- with .Site.Params.Banner -}}
 {{- $svgClose := resources.Get "/icons/x.svg" -}}
-<div class="modale" id="alert-banner">
+    <div class="modale" id="alert-banner">
     <div class="banner"><div class="banner-close">{{ $svgClose.Content | safeHTML }}</div>{{ . }}</div>
 </div>
 {{- end -}}
