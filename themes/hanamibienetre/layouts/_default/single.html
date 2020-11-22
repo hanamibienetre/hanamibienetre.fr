@@ -11,22 +11,22 @@
             <span class="page-rdv"><a href="{{ .Site.Params.BookURL }}" target="_blank" rel="noopener" class="button">Prendre rendez-vous</a></span>
         </div>
         {{ end -}}
-        {{ if and .Params.Image (not .Params.Contact)}}<img src="{{ .Params.Image }}" alt="{{ htmlEscape .Title }}" class="picture">{{ end }}
-        <div class="single">{{ .Content}}</div>
-        {{- if .Params.Product }}
-           <p class="rdv" ><a href="{{ .Site.Params.BookURL }}" target="_blank" rel="noopener" class="button">Prendre rendez-vous</a></p>
-        {{ end -}}
+        <div class="single">
+            {{ if and .Params.Image (not .Params.Contact)}}<img src="{{ .Params.Image }}" alt="{{ htmlEscape .Title }}" class="picture">{{ end }}
+            {{ .Content}}
+            {{- if .Params.Product }}
+                <p class="rdv" ><a href="{{ .Site.Params.BookURL }}" target="_blank" rel="noopener" class="button">Prendre rendez-vous</a></p>
+            {{ end -}}
+        </div>
         {{- if .Params.Contact }}
-            <div class="contact">
-            {{- if .Params.Image }}
-                <a href="{{ .Site.Params.MapURL }}" target="_blank" rel="noopener"><img src="{{ .Params.Image }}" alt="{{ htmlEscape .Title }}"></a>
-            {{ end }}
+        <div class="contact">
+            {{- if .Params.Image }}<a href="{{ .Site.Params.MapURL }}" target="_blank" rel="noopener"><img src="{{ .Params.Image }}" alt="{{ htmlEscape .Title }}"></a>{{ end }}
             <ul>
                 <li class="address"><a href="{{ .Site.Params.MapURL }}" target="_blank" rel="noopener">{{ .Site.Params.Address }}</a></li>
                 {{ with .Site.Params.Phone }}<li class="phone"><i>Tel: </i><a href="tel:{{ strings.Replace . " " "" }}">{{ . }}</a></li>{{ end }}
                 {{ with .Site.Params.Email }}<li class="email"><i>Email: </i><a href="mailto:{{ . }}">{{ . }}</a></li>{{ end }}
             </ul>
-            </div>
+        </div>
         {{ end}}
     </article>
 </main>
