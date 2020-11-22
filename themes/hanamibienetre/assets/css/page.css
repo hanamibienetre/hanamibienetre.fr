@@ -1,0 +1,118 @@
+.homepage {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.homepage .content {
+  padding: 60px 40px;
+}
+
+.page blockquote {
+  border-left: 5px solid rgba(227, 187, 206, 0.6);
+  margin: 2em 0;
+  padding: 0 15px;
+}
+
+.page-titles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 0 0 1.5rem;
+  width: 100%;
+}
+
+.page .page-title {
+  margin: 0;
+}
+
+.page .rdv a, .page .rdv a:visited {
+  color: #1d3155;
+}
+.single + .rdv {
+  margin: 40px 0;
+}
+
+.page .picture {
+  max-width: 100%;
+}
+
+.page h2 {
+  margin: 1.5em 0 1em;
+}
+
+.page ol {
+  font-weight: 600;
+  list-style-type: "🌺";
+  margin: 2em 0;
+  padding-left: 25px;
+}
+.page ol li {
+  margin-bottom: 0.6em;
+  padding-left: 10px;
+}
+
+.page ul li {
+  margin-bottom: 0.2em;
+}
+
+.page.le-cabinet ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: space-evenly;
+
+  color: #1d3155;
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.2em;
+  list-style: none;
+  margin: 1em 0 2em;
+  padding: 0;
+  text-align: center;
+}
+
+.page.le-cabinet ul li:nth-child(2n) {
+  font-size: 1.675rem;
+}
+
+.page.le-cabinet ul li:nth-child(5n) {
+  font-size: 1.8rem;
+}
+
+.page.le-cabinet ul em {
+  color: #666;
+  font-size: 0.8em;
+}
+
+.page.contact ul {
+  list-style: none;
+  margin: 2em 0;
+  padding: 0;
+}
+
+.page.contact ul li {
+  margin-left: 25px;
+  padding: 0 0 10px 0.5em;
+}
+
+.page.contact ul li.address {
+  list-style-type: "📫";
+}
+.page.contact ul li.phone {
+  list-style-type: "📞";
+}
+.page.contact ul li.email {
+  list-style-type: "📧";
+}
+
+.page a, .page a:visited {
+  color: #1d3155;
+  transition: all 0.2s ease-in-out;
+}
+
+.page a:focus, .page a:hover {
+  color: #e3bbce;
+}

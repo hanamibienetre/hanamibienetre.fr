@@ -9,5 +9,6 @@
 <!--link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Poppins&display=swap" rel="stylesheet"-->
 {{- $cssReset := resources.Get "/css/reset.css" | minify -}}
 {{- $cssMain := resources.Get "/css/main.css" | minify -}}
-{{- $style := slice $cssReset $cssMain | resources.Concat "css/bundle.css" | minify -}}
+{{- $cssPage := resources.Get "/css/page.css" | minify -}}
+{{- $style := slice $cssReset $cssMain $cssPage | resources.Concat "css/bundle.css" | minify -}}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">

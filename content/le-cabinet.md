@@ -48,11 +48,11 @@ Certains repartent le corps (ou l’esprit) plus léger, d’autres retrouvent d
 
 Leurs mots, ma meilleure récompense :
 
-* *«* Un sentiment de bien-être *»*
-* *«* Une pause détente totale *»*
-* *«* J’ai complètement lâcher prise le temps du massage *»*
-* *«* Ce massage été un moment de re-connexion à moi *»*
-* *«* Incroyable vraiment différent de tous les massages que j’ai pu faire auparavant *»*
-* *«* Des mains magiques *»*
-* *«* Des mains de fées *»*
-* *«* Elle sait s’adapter aux besoins *»*
+* « *Un sentiment de bien-être* »
+* « *Une pause détente totale* »
+* « *J’ai complètement lâcher prise le temps du massage* »
+* « *Ce massage été un moment de re-connexion à moi* »
+* « *Incroyable vraiment différent de tous les massages que j’ai pu faire auparavant* »
+* « *Des mains magiques* »
+* « *Des mains de fées* »
+* « *Elle sait s’adapter aux besoins* »
