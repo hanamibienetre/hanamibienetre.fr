@@ -8,6 +8,11 @@ html {
   line-height: 1.475em;
 }
 
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
 .banner {
   background-color: #ffffff;
   border-radius: 6px;
@@ -51,6 +56,9 @@ html {
 }
 
 .main {
+  display: flex;
+  flex-direction: column;
+
   height: 100%;
   width: 100%;
   overflow: hidden;
@@ -59,6 +67,7 @@ html {
 .header {
   display: flex;
   flex-direction: column;
+
   background: #1d3155 url("/images/flower.png") no-repeat 20% bottom;
   top: 100%;
   color: #ffffff;
@@ -67,9 +76,10 @@ html {
   position: absolute;
   transition: all 0.2s ease-in-out;
   width: 100%;
+  z-index: 100;
 }
 
-.mobile-menu-opener {
+#mobile-menu-opener {
   display: flex;
   align-items: center;
 
@@ -80,13 +90,9 @@ html {
   margin: 10px 10px 10px auto;
   width: 40px;
 }
-.mobile-menu-opener:focus ~ .header {
-  top: 0;
-}
 
 @media (min-width: 900px) {
   .main {
-    display: flex;
     flex-direction: row;
   }
 
@@ -98,7 +104,7 @@ html {
     width: auto;
 }
 
-  .mobile-menu-opener {
+  #mobile-menu-opener {
     display: none;
   }
 }
@@ -192,7 +198,7 @@ html {
 #content {
   height: 100%;
   overflow: auto;
-  padding: 40px 0;
+  padding: 20px 10px 40px;
 }
 
 @media (min-width: 900px) {

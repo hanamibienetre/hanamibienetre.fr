@@ -14,7 +14,7 @@
     padding: 0;
   }
   .page .single, .news-item {
-    width: 750px;
+    max-width: 750px;
   }
 }
 
@@ -68,10 +68,6 @@
 .page ol li, .news-list li{
   margin-bottom: 0.6em;
   padding-left: 10px;
-}
-
-.news-list li {
-  padding-bottom: 10px;
 }
 
 .page ul li {
@@ -135,4 +131,12 @@
 
 .page a:focus, .page a:hover {
   color: #e3bbce;
+}
+
+.news-list li {
+  padding-bottom: 10px;
+}
+
+.news-list .news-info {
+  font-style: italic;
 }
