@@ -2,7 +2,7 @@
 title: "Personnalisé"
 date: 2020-11-08T00:52:59+01:00
 draft: false
-image: "images/massages/personnalise.jpg"
+image: "/images/massages/personnalise.jpg"
 thumbnail: "/thumbnails/massages/personnalise.jpg"
 subtitle: "A partir de 30 €"
 product: true

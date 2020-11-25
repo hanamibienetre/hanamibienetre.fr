@@ -6,8 +6,22 @@
 }
 
 .homepage .content {
-  padding: 60px 40px;
+  padding: 0 20px;
 }
+
+@media (min-width: 900px) {
+  .homepage .content {
+    padding: 0;
+  }
+  .page .single, .news-item {
+    width: 750px;
+  }
+}
+
+.homepage .page-head {
+  padding-top: 60px;
+}
+
 
 .page blockquote {
   border-left: 5px solid rgba(227, 187, 206, 0.6);
@@ -35,7 +49,7 @@
   margin: 40px 0;
 }
 
-.page .picture {
+.picture {
   max-width: 100%;
 }
 
@@ -45,13 +59,19 @@
 
 .page ol {
   font-weight: 600;
+}
+.page ol, .news-list {
   list-style-type: "🌺";
   margin: 2em 0;
   padding-left: 25px;
 }
-.page ol li {
+.page ol li, .news-list li{
   margin-bottom: 0.6em;
   padding-left: 10px;
+}
+
+.news-list li {
+  padding-bottom: 10px;
 }
 
 .page ul li {

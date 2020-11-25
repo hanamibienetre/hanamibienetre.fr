@@ -13,9 +13,16 @@ html {
   border-radius: 6px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   color: #333333;
-  padding: 40px;
+  padding: 40px 20px;
   position: relative;
-  width: 50vw;
+  width: 80vw;
+}
+
+@media (min-width: 900px) {
+  .banner {
+    padding: 40px;
+    width: 50vw;
+  }
 }
 
 .banner-close {
@@ -31,7 +38,7 @@ html {
 }
 
 .modale {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   background: rgba(0, 0, 0, 0.6);
@@ -52,7 +59,6 @@ html {
 .header {
   display: flex;
   flex-direction: column;
-
   background: #1d3155 url("/images/flower.png") no-repeat 20% bottom;
   top: 100%;
   color: #ffffff;
@@ -186,12 +192,13 @@ html {
 #content {
   height: 100%;
   overflow: auto;
-  padding: 40px;
+  padding: 40px 0;
 }
 
 @media (min-width: 900px) {
   #content {
     flex: 1 1 70%;
+    padding: 40px;
   }
 }
 

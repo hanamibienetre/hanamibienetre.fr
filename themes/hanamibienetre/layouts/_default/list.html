@@ -12,11 +12,8 @@
                 {{- range .Paginator.Pages }}
                 <li class="news-item">
                     <h3>{{ .Title }}</h3>
-                    <div class="news-info">
-                        <span><i>Par </i>{{ .Site.Params.Author }}</span>
-                        <span><i>Le </i>{{ .PublishDate.Format "02 Jan, 2006" }}</span>
-                    </div>
-                    {{ if .Params.Image }}<img src="{{ .Params.Image }}" alt="{{ htmlEscape .Title }}">{{ end }}
+                    <div class="news-info">{{ .Site.Params.Author }}, le {{ .PublishDate.Format "02 Jan, 2006" }}</div>
+                    {{ if .Params.Image }}<img src="{{ .Params.Image }}" alt="{{ htmlEscape .Title }}" class="picture">{{ end }}
                     {{ .Content }}
                 </li>
                 {{- end }}
