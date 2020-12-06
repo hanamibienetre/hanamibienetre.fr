@@ -52,7 +52,7 @@ body {
   left: 0;
   right: 0;
   top: 0;
-  z-index: 10;
+  z-index: 200;
 }
 
 .main {
@@ -249,6 +249,11 @@ body {
   text-decoration: none;
 }
 
+.picture {
+  border-radius: 3px;
+  border: 5px solid #e3bbce;
+}
+
 .care-visual {
   border-radius: 3px;
   display: block;
@@ -256,6 +261,7 @@ body {
   height: auto;
   transition: all 0.2s ease-in-out;
   width: 100%;
+  border: 5px solid #e3bbce;
 }
 
 .care-item a:hover .care-visual {
