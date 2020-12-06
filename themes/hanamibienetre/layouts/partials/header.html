@@ -1,6 +1,6 @@
 {{- $svgMenu := resources.Get "/icons/menu.svg" -}}
-<button class="mobile-menu-opener" type="button">{{ $svgMenu.Content | safeHTML }}</button>
-<header class="header">
+<button id="mobile-menu-opener" type="button">{{ $svgMenu.Content | safeHTML }}</button>
+<header class="header" id="menuHeader">
     <nav aria-role="nav" class="menu">
         <a href="/" class="menu-logo"><img src="/images/logo.png" alt="{{.Site.Title}}" width="236" height="119" /></a>
         <ul class="menu-main">

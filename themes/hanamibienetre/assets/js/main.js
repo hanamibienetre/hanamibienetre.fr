@@ -17,4 +17,14 @@
     bannerCloseButton[0].addEventListener("click", closeBanner);
   }
   showBanner();
+
+  const mobileButtonOpener = document.getElementById("mobile-menu-opener");
+  const menuHeader = document.getElementById("menuHeader");
+
+  const switchMobileMenu = () => {
+    menuHeader.style.top = menuHeader.style.top !== 0 ? 0 : "100%";
+  }
+  if (mobileButtonOpener) {
+    mobileButtonOpener.addEventListener("click", switchMobileMenu);
+  }
 })()
