@@ -79,12 +79,22 @@ body {
   z-index: 100;
 }
 
+.mobile-header {
+  display: flex;
+  flex-direction: row;
+
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 12px rgba(29, 49, 85, 0.4);
+  position: sticky;
+}
+
 #mobile-menu-opener {
   display: flex;
   align-items: center;
 
   background: #efefef;
   border: #efefef;
+  border-radius: 3px;
   color: #333333;
   height: 40px;
   margin: 10px 10px 10px auto;
@@ -103,6 +113,10 @@ body {
     top: 0;
     width: auto;
 }
+
+  .mobile-header {
+    display: none;
+  }
 
   #mobile-menu-opener {
     display: none;
@@ -252,10 +266,12 @@ body {
 .picture {
   border-radius: 3px;
   border: 5px solid #e3bbce;
+  box-sizing: border-box;
 }
 
 .care-visual {
   border-radius: 3px;
+  box-sizing: border-box;
   display: block;
   filter: brightness(100%);
   height: auto;
