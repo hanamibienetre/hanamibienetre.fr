@@ -31,6 +31,7 @@ il a différents effets :
 Ainsi, en agissant sur vos méridiens et en rééquilibrant les énergies, le Tui Na offre un véritable ressourcement.
 
 
-## Restrictions
+## Contres indications
 
-Avant le massage, assurez-vous que vous n'êtes pas allergique à certaines huiles de massage.
+État inflammatoire, fièvre, phlébite, hypertension non traitée.
+Femme enceinte à préciser lors de la prise de rendez-vous.

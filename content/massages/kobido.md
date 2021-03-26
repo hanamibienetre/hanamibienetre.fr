@@ -27,3 +27,9 @@ Le visage est libéré de toutes tensions et crispations,
 * Le visage est tonifié et les ridules éliminées grâce aux mouvements lents et doux.
 
 Vos muscles sont stimulés laissant votre peau lisse et radieuse.
+
+
+## Contres indications
+
+État inflammatoire, fièvre, phlébite, hypertension non traitée.
+Femme enceinte à préciser lors de la prise de rendez-vous.

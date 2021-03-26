@@ -17,6 +17,7 @@ Effectué sur table, le massage énergétique utilise des gestes doux et profond
 dans un vrai cocoon, complètement déconnecté du monde.
 
 
-## Restrictions
+## Contres indications
 
-Avant le massage, assurez-vous que vous n'êtes pas allergique à certaines huiles de massage.
+État inflammatoire, fièvre, phlébite, hypertension non traitée.
+Femme enceinte à préciser lors de la prise de rendez-vous.

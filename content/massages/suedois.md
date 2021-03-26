@@ -31,6 +31,7 @@ Ce massage vous procure plusieurs bienfaits :
 Ses effets à la fois relaxants et tonifiants vous procurent un bien-être profond et durable.
 
 
-## Restrictions
+## Contres indications
 
-Avant le massage, assurez-vous que vous n'êtes pas allergique à certaines huiles de massage.
+État inflammatoire, fièvre, phlébite, hypertension non traitée.
+Femme enceinte à préciser lors de la prise de rendez-vous.

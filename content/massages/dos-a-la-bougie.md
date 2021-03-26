@@ -14,3 +14,9 @@ Un massage relaxant, cocoon.
 Les mouvements sont lents et profonds.
 La cire liquide tiède vous enveloppera de son doux parfum, elle permet de détendre les muscles et de nourrir, d'adoucir la peau.
 Idéal pour ceux qui n'aime pas les massages à l'huile.
+
+
+## Contres indications
+
+État inflammatoire, fièvre, phlébite, hypertension non traitée.
+Femme enceinte à préciser lors de la prise de rendez-vous.

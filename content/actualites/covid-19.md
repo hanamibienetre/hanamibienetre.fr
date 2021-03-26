@@ -8,4 +8,4 @@ news: true
 Suite aux decisions gouvernementales, je suis fermée temporairement pour lutter ensemble contre le coronavirus.
 
 J'espère vous retrouver très rapidement.
-Pour vos cadeaux de Noel, vous pouvez commander ou pre-commander des bons cadeaux à offrir ou à s'offrir. 
+Je reste disponible par téléphone ou mail pour toutes questions ou pour vos bons cadeaux.

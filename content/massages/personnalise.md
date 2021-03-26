@@ -21,6 +21,7 @@ Il s'adapte à vos besoins et peut être plus ou moins tonique ou relaxant.
 À l'issue de la séance, vous vous sentez parfaitement détendue et ressourcée.
 
 
-## Restrictions
+## Contres indications
 
-Avant le massage, assurez-vous que vous n'êtes pas allergique à certaines huiles de massage.
+État inflammatoire, fièvre, phlébite, hypertension non traitée.
+Femme enceinte à préciser lors de la prise de rendez-vous.

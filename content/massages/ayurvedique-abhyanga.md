@@ -35,6 +35,7 @@ Dans le cadre de la cure, seule la première séance est à réserver.
 Les dates des séances suivantes sont à fixer directement ensemble.
 
 
-## Restrictions
+## Contres indications
 
-Avant le massage, assurez-vous que vous n'êtes pas allergique à certaines huiles de massage.
+État inflammatoire, fièvre, phlébite, hypertension non traitée.
+Femme enceinte à préciser lors de la prise de rendez-vous. 
