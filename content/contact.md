@@ -16,4 +16,4 @@ ni dans le contenu, ni dans les objectifs à la pratique de la masso-kinésithé
 Les massages bien-être ne sont pas à caractère sexuel.  
 
 
-## Uniquement sur rendez-vous, réservé aux femmes, les hommes sur recommandation.
+## Uniquement sur rendez-vous, réservé aux femmes.
