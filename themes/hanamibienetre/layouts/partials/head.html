@@ -1,3 +1,4 @@
+<head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="tq18p7czTO33zL2sHiDCfDj4yc4dfzJs9XLX4-zAPlk" />
@@ -13,3 +14,4 @@
 {{- $cssPage := resources.Get "/css/page.css" | minify -}}
 {{- $style := slice $cssReset $cssMain $cssPage | resources.Concat "css/bundle.css" | minify -}}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+</head>
