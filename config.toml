@@ -2,7 +2,7 @@ baseURL = "https://hanamibienetre.fr/"
 languageCode = "fr-FR"
 title = "Hanami Bien-être"
 theme = "hanamibienetre"
-paginate = 12
+paginate = 16
 enableRobotsTXT = true
 
 [params]

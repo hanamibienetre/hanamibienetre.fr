@@ -5,7 +5,7 @@ draft: false
 news: true
 ---
 
-Pour en savoir plus sur ce [massage femme enceinte](/massages/femme_enceinte/), n’hésitez pas à me contacter 🤗
+Pour en savoir plus sur ce [massage femme enceinte](/massages/femme-enceinte/), n’hésitez pas à me contacter 🤗
 
 A venir avant la fin de l'année massage du ventre inspiré du Chi Nei Tsang.
 
