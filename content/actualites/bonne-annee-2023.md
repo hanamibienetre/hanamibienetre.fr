@@ -5,6 +5,8 @@ draft: false
 news: true
 ---
 
-Je vous souhaites à tous une très bonne et heureuse année 2023.
+Je vous souhaite une bonne et heureuse année 2023 !
+
+Qu'elle vous apporte joie et paillettes ✨ ainsi que des massages 😉
 
 A bientôt 🤗
