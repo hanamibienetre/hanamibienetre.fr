@@ -12,7 +12,7 @@ enableRobotsTXT = true
     email = "marie@hanamibienetre.fr"
     mapURL = "https://www.google.com/maps/place/Hanami+Bien-%C3%AAtre/@48.919024,2.1982835,15z/data=!4m5!3m4!1s0x0:0xae746459d5aef600!8m2!3d48.919024!4d2.1982835"
     bookURL = "https://widget.treatwell.fr/salon/hanami-bien-etre/"
-    banner = "Nouveauté : massage femme enceinte. N'hésitez pas à me contacter pour de plus amples informations 🌸🌸"
+    banner = "Bonne et heureuse année 2023 🌸🌸"
     social = [ "https://www.facebook.com/Hanamibienetre/", "https://www.instagram.com/hanami_bienetre/" ]
 
     [home]

@@ -4,11 +4,11 @@ date: 2020-11-08T00:52:59+01:00
 draft: false
 image: "/images/massages/dos-a-la-bougie.jpg"
 thumbnail: "/thumbnails/massages/dos-a-la-bougie.jpg"
-subtitle: "30 €"
+subtitle: "35 €"
 product: true
 ---
 
-1. 30min: __30 €__
+1. 30min: __35 €__
 
 Un massage relaxant, cocoon.
 Les mouvements sont lents et profonds.

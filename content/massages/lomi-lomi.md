@@ -4,11 +4,11 @@ date: 2020-11-08T00:52:59+01:00
 draft: false
 image: "/images/massages/lomi-lomi.jpg"
 thumbnail: "/thumbnails/massages/lomi-lomi.jpg"
-subtitle: "60 €"
+subtitle: "65 €"
 product: true
 ---
 
-1. 1h: __60 €__
+1. 1h: __65 €__
 
 Massage hawaïen qui est effectué par de grands mouvements avec les avant-bras et les mains,
 et qui permet de recentrer l'énergie du corps entre les pieds et la tête.

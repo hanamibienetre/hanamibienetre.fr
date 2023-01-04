@@ -4,16 +4,14 @@ date: 2020-11-08T00:52:59+01:00
 draft: false
 image: "/images/massages/tuina-dos.jpg"
 thumbnail: "/thumbnails/massages/tuina-dos.jpg"
-subtitle: "60 €"
+subtitle: "65 €"
 product: true
 ---
 
-1. 1h: __60 €__
+1. 1h: __65 €__
 
 Massage traditionnel chinois, effectué avec des acupressions et des frictions.
 Il soulage des tensions, libère l'énergie et procure un bien-être immédiat avec une sensation de légèreté.
-
-Il se pratique habillé et allongé sur un futon ou une table de massage.
 
 Les deux types de manipulations utilisées pour ce massage, sont le Tui qui signifie pousser et le Na, saisir.
 Votre masseur les réalise en utilisant ses mains, ses poignets, ses coudes et ses avant-bras.

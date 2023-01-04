@@ -4,13 +4,13 @@ date: 2020-11-08T00:52:59+01:00
 draft: false
 image: "/images/massages/suedois.jpg"
 thumbnail: "/thumbnails/massages/suedois.jpg"
-subtitle: "A partir de 30 €"
+subtitle: "A partir de 35 €"
 product: true
 ---
 
-1. 30min: __30 €__
-1. 1h: __60 €__
-1. 1h30: __80 €__
+1. 30min: __35 €__
+1. 1h: __65 €__
+1. 1h30: __85 €__
 1. 2h: __110 €__
 
 Un massage doux et ferme qui soulage les douleurs musculaires et renforce leur tonus et relaxe.

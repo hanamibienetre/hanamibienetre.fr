@@ -4,11 +4,11 @@ date: 2020-11-08T00:52:59+01:00
 draft: false
 image: "/images/massages/qi.jpg"
 thumbnail: "/thumbnails/massages/qi.jpg"
-subtitle: "30 €"
+subtitle: "35 €"
 product: true
 ---
 
-1. 30m: __30 €__
+1. 30m: __35 €__
 
 Un massage qui relance l'énergie vitale par stimulation de points d'acupression, de frictions et de massage énergétique.
 Idéal en cas de fatigue ou de jambes lourdes.

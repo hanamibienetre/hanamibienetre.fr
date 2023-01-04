@@ -4,12 +4,12 @@ date: 2021-03-26T14:36:59+01:00
 draft: false
 image: "/images/massages/amincissant.jpg"
 thumbnail: "/thumbnails/massages/amincissant.jpg"
-subtitle: "A partir de 60 €"
+subtitle: "A partir de 65 €"
 product: true
 ---
 
-1. 1h : __60€__
-1. 1h30 : __80€__
+1. 1h : __65€__
+1. 1h30 : __85€__
 1. Cure de 11 massages : __600€__
 
 

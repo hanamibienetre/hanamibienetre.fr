@@ -4,11 +4,11 @@ date: 2020-11-08T00:52:59+01:00
 draft: false
 image: "/images/massages/ayurvedique.jpg"
 thumbnail: "/thumbnails/massages/ayurvedique.jpg"
-subtitle: "A partir de 80 €"
+subtitle: "A partir de 85 €"
 product: true
 ---
 
-1. 1h30: __80 €__
+1. 1h30: __85 €__
 1. Cure conseillée de 3 massages: __225 €__
 
 Massage indien, complet, dynamique et profond.
