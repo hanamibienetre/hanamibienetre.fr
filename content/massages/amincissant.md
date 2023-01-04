@@ -10,7 +10,7 @@ product: true
 
 1. 1h : __65€__
 1. 1h30 : __85€__
-1. Cure de 11 massages : __600€__
+1. Cure de 10 massages : __600€__
 
 
 C'est un massage dynamique et relaxant.

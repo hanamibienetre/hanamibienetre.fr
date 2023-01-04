@@ -11,7 +11,6 @@ product: true
 1. 30min: __35 €__
 1. 1h: __65 €__
 1. 1h30: __85 €__
-1. 2h: __110 €__
 
 Un massage doux et ferme qui soulage les douleurs musculaires et renforce leur tonus et relaxe.
 Il améliore la circulation sanguine, élimine les toxines.

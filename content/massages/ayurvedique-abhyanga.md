@@ -9,7 +9,7 @@ product: true
 ---
 
 1. 1h30: __85 €__
-1. Cure conseillée de 3 massages: __225 €__
+1. Cure conseillée de 3 massages: __240 €__
 
 Massage indien, complet, dynamique et profond.
 Il mobilise les toxines, active la circulation sanguine.
