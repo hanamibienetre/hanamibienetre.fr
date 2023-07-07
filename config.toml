@@ -12,7 +12,7 @@ enableRobotsTXT = true
     email = "marie@hanamibienetre.fr"
     mapURL = "https://www.google.com/maps/place/Hanami+Bien-%C3%AAtre/@48.919024,2.1982835,15z/data=!4m5!3m4!1s0x0:0xae746459d5aef600!8m2!3d48.919024!4d2.1982835"
     bookURL = "https://widget.treatwell.fr/salon/hanami-bien-etre/"
-    banner = "Bonne et heureuse année 2023 🌸🌸"
+    banner = "Congé d'été : mes mains et moi-même seront en congés du samedi 22 juillet au dimanche 20 août 2023. Reprise dès le lundi 21 août, n'hésitez pas à anticiper vos rendez-vous de juillet et de la rentrée. Je vous souhaite un bel été ! 🌸🌸"
     social = [ "https://www.facebook.com/Hanamibienetre/", "https://www.instagram.com/hanami_bienetre/" ]
 
     [home]
