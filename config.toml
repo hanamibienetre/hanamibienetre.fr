@@ -12,7 +12,7 @@ enableRobotsTXT = true
     email = "marie@hanamibienetre.fr"
     mapURL = "https://www.google.com/maps/place/Hanami+Bien-%C3%AAtre/@48.919024,2.1982835,15z/data=!4m5!3m4!1s0x0:0xae746459d5aef600!8m2!3d48.919024!4d2.1982835"
     bookURL = "https://widget.treatwell.fr/salon/hanami-bien-etre/"
-    banner = "Je vous souhaite une bonne rentrée ! 🌸🌸 Je vous retrouve avec plaisir le dimanche 24 septembre à l'évènement La Festive d'Automne organisée par Emergy, au gymnase Guimier."
+    banner = "N'hésitez pas à me contacter pour vos bons cadeaux 🎁, joyeuses fêtes 🎄"
     social = [ "https://www.facebook.com/Hanamibienetre/", "https://www.instagram.com/hanami_bienetre/" ]
 
     [home]
