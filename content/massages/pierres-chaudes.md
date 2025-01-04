@@ -1,6 +1,6 @@
 ---
 title: "Massage aux pierres chaudes"
-date: 2024-01-04T00:52:59+01:00
+date: 2025-01-04T00:52:59+01:00
 draft: false
 image: "/images/massages/pierres-chaudes.jpg"
 thumbnail: "/thumbnails/massages/pierres-chaudes.jpg"
