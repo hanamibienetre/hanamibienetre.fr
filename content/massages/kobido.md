@@ -4,11 +4,11 @@ date: 2020-11-08T00:52:59+01:00
 draft: false
 image: "/images/massages/kobido.jpg"
 thumbnail: "/thumbnails/massages/kobido.jpg"
-subtitle: "70 €"
+subtitle: "75 €"
 product: true
 ---
 
-1. 45min: __70 €__
+1. 45min: __75 €__
 
 Un massage ancestral japonais du visage qui permet de rééquilibrer, stimuler la circulation de l'énergie du visage et du cou.
 Il améliore la qualité de la peau et apporte une profonde relaxation.

@@ -4,12 +4,12 @@ date: 2020-11-08T00:52:59+01:00
 draft: false
 image: "/images/massages/relaxant-complet.jpg"
 thumbnail: "/thumbnails/massages/relaxant-complet.jpg"
-subtitle: "A partir de 65 €"
+subtitle: "A partir de 70 €"
 product: true
 ---
 
-1. 1h: __65 €__
-1. 1h30 : __85€__
+1. 1h: __70 €__
+1. 1h30 : __90€__
 
 Massage cocoon, doux, relaxant, enveloppant.
 Idéal pour prendre soin de soi, en cas de stress, fatigue ou tensions musculaires.

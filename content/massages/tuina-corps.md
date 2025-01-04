@@ -4,12 +4,12 @@ date: 2020-11-08T00:52:59+01:00
 draft: false
 image: "/images/massages/tuina-corps.jpg"
 thumbnail: "/thumbnails/massages/tuina-corps.jpg"
-subtitle: "A partir de 65 €"
+subtitle: "A partir de 70 €"
 product: true
 ---
 
-1. 1h: __65 €__
-1. 1h30: __85 €__
+1. 1h: __70 €__
+1. 1h30: __90 €__
 
 Massage traditionnel chinois qui prend en compte les méridiens et les points d'acupressions.
 Il active la circulation de l'énergie, dénoue et apaise les tensions musculaires, apaise l'esprit, les émotions et le stress.

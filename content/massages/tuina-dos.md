@@ -4,11 +4,11 @@ date: 2020-11-08T00:52:59+01:00
 draft: false
 image: "/images/massages/tuina-dos.jpg"
 thumbnail: "/thumbnails/massages/tuina-dos.jpg"
-subtitle: "65 €"
+subtitle: "70 €"
 product: true
 ---
 
-1. 1h: __65 €__
+1. 1h: __70 €__
 
 Massage traditionnel chinois, effectué avec des acupressions et des frictions.
 Il soulage des tensions, libère l'énergie et procure un bien-être immédiat avec une sensation de légèreté.

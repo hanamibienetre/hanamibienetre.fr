@@ -4,12 +4,12 @@ date: 2020-11-08T00:52:59+01:00
 draft: false
 image: "/images/massages/chrong-mai.jpg"
 thumbnail: "/thumbnails/massages/chrong-mai.jpg"
-subtitle: "A partir de 65 €"
+subtitle: "A partir de 70 €"
 product: true
 ---
 
-1. 1h: __65 €__
-1. Cure conseillée de 3 massages : __180 €__
+1. 1h: __70 €__
+1. Cure conseillée de 3 massages : __195 €__
 
 Soin ancestral chinois, énergétique, apaisant, qui permet de se recentrer et de relancer l'énergie vitale dans le corps.
 Conseillé en cas de choc émotionnel, de déprime passagère, de fatigue générale ou de difficulté à prendre des décisions.
