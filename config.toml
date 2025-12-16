@@ -12,7 +12,7 @@ enableRobotsTXT = true
     email = "marie@hanamibienetre.fr"
     mapURL = "https://www.google.com/maps/place/Hanami+Bien-%C3%AAtre/@48.919024,2.1982835,15z/data=!4m5!3m4!1s0x0:0xae746459d5aef600!8m2!3d48.919024!4d2.1982835"
     bookURL = "https://widget.treatwell.fr/salon/hanami-bien-etre/"
-    banner = "Je vous souhaite de joyeuses fêtes de fin d'année 🎄 N'hésitez pas à me contacter (marie@hanamibienetre.fr) pour vos bons cadeaux 🎁"
+    banner = "Je vous souhaite de joyeuses fêtes de fin d'année 🎄 <br /> N'hésitez pas à me <a href='marie@hanamibienetre.fr'>contacter</a> (marie@hanamibienetre.fr) pour vos bons cadeaux 🎁"
     social = [ "https://www.facebook.com/Hanamibienetre/", "https://www.instagram.com/hanami_bienetre/" ]
 
     [home]
