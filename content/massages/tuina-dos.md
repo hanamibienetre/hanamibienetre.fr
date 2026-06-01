@@ -1,7 +1,7 @@
 ---
 title: "Tuina dos"
 date: 2020-11-08T00:52:59+01:00
-draft: false
+draft: true
 image: "/images/massages/tuina-dos.jpg"
 thumbnail: "/thumbnails/massages/tuina-dos.jpg"
 subtitle: "70 €"
