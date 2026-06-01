@@ -1,7 +1,7 @@
 ---
 title: "Massage convalescence®"
 date: 2026-05-31T14:36:59+01:00
-draft: true
+draft: false
 image: "/images/massages/convalescence.jpg"
 thumbnail: "/thumbnails/massages/convalescence.jpg"
 subtitle: "A partir de 85 €"
